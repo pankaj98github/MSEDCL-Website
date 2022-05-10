@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Calculator</title>
+    <link rel="stylesheet" href="style17.css">
+    <script src="script17.js"></script>
+  
+</head>
+<body>
+
+    <h1>Maharashtra State Electricity Distribution Company Limited</h1>
+    <h2>Bill Calculator</h2>
+    <hr>
+    <h3>Fill the following Consumer Name and Consumer Id</h3>
+
+    <br>
+        <div id="cont1">
+            <form name="f1">
+        <p>Consumer Name : &nbsp; &nbsp; <input type="textbox" name="consumer" value="" placeholder="Enter Consumer Name"></p>
+        <p>Consumer ID : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="textbox" name="id" value="" placeholder="Enter Consumer Id"></p>
+        <p>Current Reading : &nbsp; &nbsp; &nbsp;<input type="textbox" name="curr" value=""></p>
+        <p>Previous Reading : &nbsp; &nbsp;<input type="textbox" name="pre" value=""></p>
+        <p>Units : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<input type="textbox" name="unit" value=""></p>
+        <div>
+            <label>Unit/Rate : &nbsp;&nbsp;
+            <select name="myunit" id="ele">
+                <option value="select">--Select--</option>
+                <option value="7">(0-100) 7 rs</option>
+                <option value="8">(0-100) 7 rs & (100-200) 8 rs</option>
+                <option value="9">(0-100) 7 rs & (100-200) 8 rs & (200-300) 9 rs</option>
+                <option value="10">(300 above) 10 rs</option>
+            </select></label>
+        </div>
+
+        <p>Bill (Rs) : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="textbox" name="bill" value=""></p>
+        <br><hr><br>
+        <input type="button" value="CalculateUnit" onclick="CalculateUnit();" class="calc1">
+        <input type="button" value="CalculateBill" onclick="CalculateBill();" class="calc2">
+        <input type="reset" name="clear" value="Clear" class="calc3">
+    </form>
+</div>
+    
+</body>
+</html>

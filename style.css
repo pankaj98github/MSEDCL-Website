@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+  }
+                  
+  #navbar {
+          display: flex;
+          align-items: center;
+          position: sticky;
+      }
+  
+  #navbar ul {
+    display: flex;
+  }
+  
+  #navbar::before {
+    content: "";
+    background-color: rgb(209, 163, 104);
+    border-radius: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 96%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+  }
+  
+  #navbar ul li {
+    list-style: none;
+    padding: 3px 20px;
+  }
+  
+  #navbar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    padding: 6px 0px;
+    text-decoration: none; 
+  }
+  
+  #navbar ul li a:hover{
+    color: white;
+  }
+  
+  /* Button Section */
+  input{
+      font-family: Arial, Helvetica, sans-serif;
+      height: 70px;
+      width: 237px;
+      margin: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      border: 2px;
+      border-radius: 35px;
+      background-color: rgb(209, 163, 104);
+      box-shadow: 3px 3px 3px #614d4d;
+      cursor: pointer;
+  }
+  
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+    margin-top: 5px;
+    font-size: 30px;
+  }
+  
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    animation:backwards;
+  }
+  
+  p{
+      text-align: right;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+  }
+  
+  p a:hover{
+    color: red;
+  }
+  
+  input:hover{
+    transform: scale(1.04);
+  }
+  
+  #logo img{
+    height: 50px;
+    width: 64px;
+    margin-left: 999px;
+    margin-top: 0px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px #614d4d;
+  }
+  
+  footer{
+    background: white;
+    color: black;
+    padding: 9px 20px;
+    text-align: center; 
+    font-weight: bold;
+  }
+  
+  .info{
+    font-size: 20px;
+    background-color: bisque;
+  }
+  
+  .center a{
+    text-decoration: none;
+  }
+  
+  p1{
+    color: red;
+  }
+  
+  b{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #Home::before{
+    background: url(tower.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    height: 35%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+  }

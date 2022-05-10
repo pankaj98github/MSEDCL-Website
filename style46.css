@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px black;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    background-color:rgb(209, 163, 104);
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+ label{
+    margin-left: 440px;
+    font-size: 23px
+}
+
+#ele{
+    height: 28px;
+    width: 358px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px #614d4d;
+}
+
+ p{
+    margin-left: 440px;
+    font-size: 23px;
+}
+
+input{
+    height: 20px;
+    width: 350px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px #614d4d;
+    cursor: pointer;
+}
+
+#A{
+    width: 162px;
+    height: 30px;
+    background-color: rgb(209, 163, 104);
+    margin-left: 45%;
+    font-weight: bold;
+}
+
+#B{
+    width: 128px;
+    height: 30px;
+    background-color: rgb(209, 163, 104);
+    margin-left: 45%;
+    font-weight: bold;
+}
+
+#A:hover{
+    transform: scale(1.04);
+}
+
+#B:hover{
+    transform: scale(1.04);
+}

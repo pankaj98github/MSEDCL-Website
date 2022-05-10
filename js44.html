@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint</title>
+    <link rel="stylesheet" href="style44.css">
+    <script src="script44.js"></script>
+    
+</head>
+<body>
+
+    <h1>Maharashtra State Electricity Distribution Company Limited</h1>
+    <h2>Complaint Registration</h2>
+    <hr>
+    <h3>Service Request - Registration</h3>
+    <br>
+    <form name="f1">
+        <p>Consumer Number : &nbsp; &nbsp; <input type="text" name="number" value="" placeholder="Enter Consumer Number"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+             Billing Unit : &nbsp; &nbsp; <input type="text" name="BU" value="" placeholder="Enter 4-digit BU"></p>
+       
+        <p>Name : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="customer" value=""></p>
+        <p>Address : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="address" value=""></p>
+        <p>Pincode : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="pincode" value=""></p>
+
+        <p>Email : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="email" name="email" value="">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        Mobile : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="mobile" value="+91-"></p>
+
+        <p>City/Village : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="town" value=""> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+        Landmark : &nbsp; &nbsp; &nbsp;<input type="text" name="landmark" value=""></p>
+
+        <p>Consumer Load : &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="load" value=""></p>
+
+        <hr><br>
+        <label>Service Request Type : &nbsp; &nbsp;
+            <select name="myunit1" id="ele1">
+                <option value="select">--Select--</option>
+                <option value="power failure">Power Failure</option>
+                <option value="billing">Billing</option>
+                <option value="others">Others</option>
+            </select>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+        Service Request Sub-Type : &nbsp; &nbsp;
+            <select name="myunit2" id="ele2">
+                <option value="select">--Select--</option>
+                <option value="high bill">High Bill</option>
+                <option value="correction">Meter Reading-Correction</option>
+                <option value="taken">Meter Reading Not Taken</option>
+                <option value="out">Supply Failed-Phase Out</option>
+                <option value="burn">Transformer-Burnt</option>
+                <option value="voltage">Voltage-Fluctuation</option>
+            </select></label>
+
+            <br><br>
+            <label for="name">Request Details :</label><br>
+            <textarea name="message" id="message" cols="25" rows="8"></textarea>
+
+            <br><br>
+            
+            <h5>Please Click on "Generate OTP" button to get OTP on Mobile and Email Address for verification process.</h5>
+        
+            <p><input type="button" name="otp" value="Get OTP" onclick="subotp()" id="one"> &nbsp; - &nbsp; <input type="text" name="" value="" id="four"></p>
+        
+
+            <hr><br>
+            <input type="submit" name="submit" value="Submit" onclick="yes()" id="two">&nbsp; &nbsp;
+            <input type="reset" value="Clear" id="three">
+    </form>
+    
+</body>
+</html>

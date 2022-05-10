@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Registration</title>
+    <link rel="stylesheet" href="style40.css">
+    <script src="script40.js"></script>
+   
+</head>
+<body>
+
+    <h1>Maharashtra State Electricity Distribution Company Limited</h1>
+    <h2>New Registration</h2>
+    <hr>
+    <h3>Fill the following Form for Registration</h3>
+
+    <form name="f1" onsubmit="validate()" >
+    <b>Consumer Profile</b>
+    <p>Consumer Number : &nbsp;&nbsp; <input type="text" name="id" value="" placeholder="Enter Consumer Number"></p>
+    <p>Mobile Number : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="mobile" value="" placeholder="Enter Mobile Number"></p>
+    <p>Email : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="email" name="mail" value="" placeholder="Enter Your Email"> &nbsp; &nbsp; <input type="button" name="otp" value="Get OTP" onclick="subotp()" id="trig1"></p>
+    <p>Email OTP : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="code" value=""></p>
+    <hr>
+    <br>
+    <b>Membership Profile</b>
+    <p>Log in Name : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="login" value=""></p>
+    <p>Password : &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <input type="password" name="pass" value=""><br></p>
+    <strong> Note: Password must be between 6 to 20 characters with atleast</strong> <br> <strong>lower-case, one upper-case, one numeric and one special character.</strong>
+    <p>Confirm Password : &nbsp;&nbsp; &nbsp;<input type="password" name="confirm" value=""></p>
+    <hr>
+    <input type="submit" name="submit" value="Submit" id="trig2">&nbsp; &nbsp;
+    <input type="reset" value="Clear" id="trig3">
+</form>
+    
+</body>
+</html>
